@@ -16,6 +16,7 @@
 		45D263B425F8618D006E508D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D263B325F8618D006E508D /* main.m */; };
 		45D263BE25F8618D006E508D /* locationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D263BD25F8618D006E508D /* locationTests.m */; };
 		45D263C925F8618D006E508D /* locationUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45D263C825F8618D006E508D /* locationUITests.m */; };
+		45D263DA25F861A2006E508D /* Locationfile.gpx in Resources */ = {isa = PBXBuildFile; fileRef = 45D263D925F861A1006E508D /* Locationfile.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		45D263C425F8618D006E508D /* locationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = locationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		45D263C825F8618D006E508D /* locationUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = locationUITests.m; sourceTree = "<group>"; };
 		45D263CA25F8618D006E508D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D263D925F861A1006E508D /* Locationfile.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Locationfile.gpx; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				45D263A525F8618A006E508D /* SceneDelegate.m */,
 				45D263A725F8618A006E508D /* ViewController.h */,
 				45D263A825F8618A006E508D /* ViewController.m */,
+				45D263D925F861A1006E508D /* Locationfile.gpx */,
 				45D263AA25F8618A006E508D /* Main.storyboard */,
 				45D263AD25F8618D006E508D /* Assets.xcassets */,
 				45D263AF25F8618D006E508D /* LaunchScreen.storyboard */,
@@ -241,6 +244,7 @@
 			files = (
 				45D263B125F8618D006E508D /* LaunchScreen.storyboard in Resources */,
 				45D263AE25F8618D006E508D /* Assets.xcassets in Resources */,
+				45D263DA25F861A2006E508D /* Locationfile.gpx in Resources */,
 				45D263AC25F8618A006E508D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,14 +445,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B47HNC5UQ4;
 				INFOPLIST_FILE = location/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.allince.ssp.location;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pp.sportstest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -458,14 +466,18 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = B47HNC5UQ4;
 				INFOPLIST_FILE = location/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.allince.ssp.location;
+				PRODUCT_BUNDLE_IDENTIFIER = com.pp.sportstest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
